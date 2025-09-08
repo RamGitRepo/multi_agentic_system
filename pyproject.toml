@@ -1,0 +1,18 @@
+[project]
+name = "langgraph-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "azure-search-documents>=11.5.3",
+    "fastapi>=0.116.1",
+    "ipython>=9.4.0",
+    "langchain>=0.3.27",
+    "langchain-azure-ai>=0.1.4",
+    "langgraph>=0.6.6",
+    "pyodbc>=5.2.0",
+    "python-dotenv>=1.1.1",
+    "reportlab>=4.4.3",
+    "vector>=1.6.3",
+]
